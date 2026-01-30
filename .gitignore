@@ -1,0 +1,65 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.Python
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+env/
+ENV/
+.virtualenv/
+
+# ==============================
+# Django
+# ==============================
+db.sqlite3
+*.log
+local_settings.py
+.env
+.env.*
+!.env.example
+
+# Migrations (لو حابب تسيبها)
+# migrations/
+# */migrations/
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ==============================
+# Media & Static (لو بتتولد)
+# ==============================
+media/
+staticfiles/
+
+# ==============================
+# Translations (اختياري)
+# ==============================
+*.mo
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Pip / Dependency Files
+# ==============================
+pip-wheel-metadata/
