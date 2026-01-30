@@ -8,8 +8,11 @@ This project focuses on selling **digital products (PDF books)** with a complete
 
 ## 🧠 Core Concept
 
+
 The application is built around a **transaction-driven order lifecycle**:
+
 Cart (Session) → Transaction → Payment (Stripe / PayPal) → Order → Email Confirmation
+
 Orders are only created **after successful payment confirmation via webhooks**, ensuring data consistency and realistic business logic.
 
 ---
